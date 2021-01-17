@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_add_property_listing"
+    app:startDestination="@id/addPropertyDetailsFragment">
+
+    <fragment
+        android:id="@+id/addPropertyDetailsFragment"
+        android:name="com.example.searchproperty.fragments.AddPropertyDetailsFragment"
+        android:label="fragment_add_property_details"
+        tools:layout="@layout/fragment_add_property_details" />
+</navigation>
