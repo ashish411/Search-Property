@@ -4,4 +4,20 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lbl_property_detail_head">Please Enter Property Details</string>
     <string name="btn_next">Next</string>
+    <string name="lbl_property_type">Select Property Type</string>
+    <string name="lbl_rent">rent</string>
+    <string name="lbl_sell">sell</string>
+    <string name="lbl_bedrooms">bedrooms</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+    <string name="lbl_4">4</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_6">6+</string>
+    <string name="lbl_built_up_area_hint">Built up area (sq.ft)</string>
+    <string name="lbl_price_in_lac">Price (In Lac)</string>
+    <string name="lbl_furnish_type">Furnish type</string>
+    <string name="lbl_furnished">Furnished</string>
+    <string name="lbl_semi_furnished">Semi-furnished</string>
+    <string name="lbl_unfurnished">Unfurnished</string>
 </resources>
