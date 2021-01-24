@@ -4,14 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingStart="@dimen/dimen_20dp"
+    android:paddingEnd="@dimen/dimen_20dp"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/lbl_property_detail_head"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_0dp"
         app:defaultNavHost="true"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fab_next"
         app:navGraph="@navigation/nav_add_property_listing" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fab_next"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="@dimen/dimen_10dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/btn_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

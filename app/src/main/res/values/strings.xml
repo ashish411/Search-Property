@@ -2,4 +2,6 @@
     <string name="app_name">Search Property</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_property_detail_head">Please Enter Property Details</string>
+    <string name="btn_next">Next</string>
 </resources>
